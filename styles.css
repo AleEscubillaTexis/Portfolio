@@ -1,0 +1,122 @@
+body {
+   margin: 0px;
+}
+
+.app {
+   font-family: 'Poppins', sans-serif;
+   background-color: #23283e;
+   color: #bdbddd;
+}
+
+.languages {
+   width: 100%;
+ }
+ 
+ .languages ul {
+   justify-content: flex-end;
+   display: flex;
+ }
+ 
+ .languages ul li {
+   list-style-type: none;
+   text-align: left;
+   font-weight: bold;
+ }
+ 
+ .languages ul li a {
+   padding: 10px;
+ }
+
+/*
+.languages {
+   width: 100%;
+   float: left;
+   text-align:right;
+   border-style: dotted;
+   border-color: blue;
+ }
+ 
+ .languages ul li {
+   display:inline-block;
+   list-style-type: none;
+   text-align: left;
+   border-style: dotted;
+   border-color: pink;
+ }
+ 
+ .languages ul li a {
+   padding: 10px;
+   border-style: dotted;
+   border-color: green;
+}*/
+
+ /*
+.languages li{
+
+   float: right;
+   margin: 0 15px 0 0;
+   font-weight: bold;
+   list-style-type: none;*/
+
+    /*list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: end;*/
+    /*list-style-image: url();*/
+
+
+.info {
+   margin: 80px 50px;
+   text-align: center;
+}
+
+.titulo {
+   font-size: 4rem;
+}
+
+.nombre {
+   font-size: 4rem;
+   color: #90a0d9;
+}
+
+.texto {
+   padding: 0px 250px;
+   margin: auto;
+}
+
+#botones {
+   width: 100%;
+}
+
+#botones .boton1, #botones .boton2 {
+   display: inline-block;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin: 4rem 8rem;
+   color: #90A0D9;
+   transition: color .5s;
+   text-decoration: none;
+}
+
+#botones .boton1:hover {
+    color: #CDCDFF;
+}
+
+#botones .boton2:hover{
+    color: #CDCDFF;
+}
+
+#redes {
+    width: 100%;
+    font-size: 6rem;
+}
+
+.fab {
+    margin: 2rem 6rem;
+    color: #90A0D9;
+    transition: color .5s;
+}
+
+.fab:hover {
+    color: #CDCDFF;
+}
